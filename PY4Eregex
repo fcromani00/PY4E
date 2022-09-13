@@ -14,8 +14,8 @@ for line in arquivo:
     numbers.append(number)#adicionando os numeros emcontrados em cada linha do arquivo
 print(numbers)
     
-sum= 0
+sum= 0 #criando soma
 for number in numbers: #verificando cada linha na lista dos numeros
     for n in number:#verificando cada numero encontrado em cada linha na lista dos numeros
-        sum = sum + int(n)#para cada numero encontrado, ttransforma ele em int e junta ele á soma
+        sum = sum + int(n)#para cada numero encontrado, transforma ele em int e junta ele á soma
 print(sum)
